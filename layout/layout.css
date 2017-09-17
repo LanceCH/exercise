@@ -1,0 +1,56 @@
+.left, .right{
+    width: 100px;
+    height: 100px;
+    background-color: #B48649;
+}
+.main{
+    height: 100px;
+    background-color: #1D95A5;
+}
+
+.selfFloat .left{
+    float: left;
+}
+.selfFloat .right{
+    float: right;
+}
+.selfFloat .main{
+    margin: 0 100px;
+}
+.absolutePosition {
+    position: relative;
+}
+.absolutePosition .left{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.absolutePosition .right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.absolutePosition .main{
+    margin: 0 100px;
+}
+.marginColumn .main{
+    width:100%;
+    float: left;
+}
+.marginColumn .main .content{
+    margin: 0 100px;
+}
+.marginColumn .left{
+    margin-left: -100%;
+    float: left;
+}
+.marginColumn .right{
+    margin-left: -100px;
+    float: left;
+}
+.flexContent{
+    display: flex;
+}
+.flexContent .main{
+    flex:1;
+}
